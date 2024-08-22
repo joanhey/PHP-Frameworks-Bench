@@ -5,10 +5,10 @@
  */
 namespace App\Http\Controllers;
 
+use Laravel\Lumen\Routing\Controller;
+
 class HelloWorldController extends Controller {
     public function index(): void {
         echo 'Hello World!';
     }
 }
-
-?>
